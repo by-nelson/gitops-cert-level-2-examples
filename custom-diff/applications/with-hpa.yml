@@ -23,8 +23,8 @@ spec:
       - CreateNamespace=true  
 
   # Sync conflicts
-  ignoreDifferences:
-    - group: apps
-      kind: Deployment
-      jsonPointers:
-        - /spec/replicas
+ #ignoreDifferences:
+ #  - group: apps
+ #    kind: Deployment
+ #    jsonPointers:
+ #      - /spec/replicas
