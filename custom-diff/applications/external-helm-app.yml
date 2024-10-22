@@ -24,11 +24,11 @@ spec:
 
   # Sync conflicts
   ignoreDifferences:
-    - groups: apps
+    - group: apps
       kind: Deployment
       jsonPointers:
         - /metadata/annotations/creation
-    - groups: ""
+    - group: ""
       kind: Secret
       jsonPointers:
         - /data/my-password
